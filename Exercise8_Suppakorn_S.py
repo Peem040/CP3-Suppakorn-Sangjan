@@ -16,19 +16,19 @@ if username == 'peem' and password == '1234':
         x = input("Fill number of product : ")
         print("Total : 10 x", x, '=', 10 * int(x), "THB")
         print("------------------------------")
-    if choose == 2:
+    elif choose == 2:
         x = input("Fill number of product : ")
         print("Total : 20 x", x, '=', 20 * int(x), "THB")
         print("------------------------------")
-    if choose == 3:
+    elif choose == 3:
         x = input("Fill number of product : ")
         print("Total : 100 x", x, '=', 100 * int(x), "THB")
         print("------------------------------")
-    if choose == 4:
+    elif choose == 4:
         x = input("Fill number of product : ")
         print("Total : 20 x", x, '=', 20 * int(x), "THB")
         print("------------------------------")
-    if choose == 5:
+    elif choose == 5:
         x = input("Fill number of product : ")
         print("Total : 40 x", x, '=', 40 * int(x), "THB")
         print("------------------------------")
